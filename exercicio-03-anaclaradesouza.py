@@ -5,4 +5,7 @@ soma = int(input("Escreva um numero: "))
 resposta = "S"
 while resposta == "S":
     soma += int(input("Escreva outro numero: "))
+    print('sua soma é', soma)
     resposta = input("Deseja adicionar outro numero ? (S/N)").upper()
+print("Programa finalizado.")
+print("Ana Clara De Souza")
